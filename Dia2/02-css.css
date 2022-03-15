@@ -1,0 +1,11 @@
+h1 {
+    font-family: Impact;
+}
+.parrafo {
+    color: green;
+    font-weight: bold;
+    font-size: 20 px;
+}
+#primero {
+    border: 2px solid slateblue
+}

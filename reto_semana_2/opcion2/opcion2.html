@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>opcion2</title>
+    <link rel="stylesheet" href="./opcion2.css">
+</head>
+<body id="body">
+    <section class="contenedor">
+        <form>
+          <h2>Sign Up</h2>  
+          <div class="caja">
+          <label class="titulos" for="first_name">First name</label>
+          <br>
+          <input type="text" name="first_name" id="first_name" class="data">
+          <br>
+          </div>
+          <div class="caja">
+          <label class="titulos" for="age">Age</label>
+          <br>
+          <input type="number" min="1" max="120" id="age" class="data">
+          <br>
+          </div>
+          <div class="caja">
+          <label class="titulos" for="income">Income</label>
+          <br>
+          <input type="text" id="income" minlength="6" required class="data">
+          <br>
+          </div>
+          <div class="caja">
+          <label class="titulos" for="more_info">More Info</label>
+          <br>
+          <textarea name="more_info" id="more_info" cols="30" rows="10"  class="data" minlength="6"></textarea>
+          <br>
+          </div>
+          <div class="caja genero">
+          <label class="titulos" for="gender">Gender</label>
+          <br>
+                <div id="genero">
+                    <div>   
+                     <input type="radio" name="genero" value="M"> Male
+                    </div>
+                    <div>
+                     <input type="radio" name="genero" value="F" id="female"> Female
+                    </div>  
+                    <div>
+                     <input type="radio" name="genero" value="T"> Trans
+                    </div>   
+                </div>
+          </div>
+          <div class="caja">
+          <label class="titulos">Plan</label>
+            <br>
+            <select class="eleccion">
+                <option disabled selected >Select Plan </option>
+                <option value="TE">Tecnologia</option>
+                <option value="CU">Cultura</option>
+                <option value="MO">Moda</option>
+                <option value="CO">Comida</option>
+                <option value="SA">Salud</option>
+            </select>
+            <br>
+            </div>
+          <div class="noticia">
+            <input type="checkbox">
+          <label class="titulos" for="confirmar">Subscribe to Newsletter</label>
+          </div>
+          <div class="boton">
+          <input type="submit" value="Update" id="update">
+          </div>
+        </form>
+    </section>
+</body>
+</html>

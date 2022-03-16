@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulario1</title>
+    <link rel="stylesheet" href="./opcion1.css">
 </head>
 <body>
-    <header>
-        <h1>CREATE YOUR ACCOUNT</h1>
+    <main class="cuadro">
+        <h2>CREATE YOUR ACCOUNT</h2>
         <h3>This is step 1</h3>
-    </header>
-    <main>
         <form>
-          <p>
-              <input type="email" 
+          <p class="formulario">
+              <input class="datos" type="email" 
                 placeholder="Email"            
               >
           </p>  
-          <p>
-              <input type="password"
+          <p class="formulario">
+              <input class="datos" type="password"
               placeholder="Password"
               >
           </p>
-          <p>
-              <input type="password"
+          <p class="formulario">
+              <input class="datos" type="password"
               placeholder="Confirm Password"
               >
           </p>
-          <p>
-              <input type="submit" value="Next">
+          <p class="formulario next">
+              <input type="submit" id="boton" value="Next">
           </p>
         </form>
     </main>
